@@ -15,10 +15,8 @@ function fn() {
 
 
   if (env == 'dev') {
-    // customize
     config.userEmail = 'search4vivek007@gmail.com'
     config.userPassword = 'vidady123'
-    // e.g. config.foo = 'bar';
   } else if (env == 'qa') {
     // customize
     config.userEmail = 'search4vivek007@gmail.com'

@@ -16,7 +16,7 @@ Background: Define URL
     Scenario:Create a new article and delete it
     # Given header Authorization = 'Token '+token
     Given path 'articles'
-    * def requestBody = {"article": {"title":"Karate Title7","description":"testing","body":"to check karate","tagList": []}}
+    * def requestBody = {"article": {"title":"Karate Title9","description":"testing","body":"to check karate","tagList": []}}
     And request requestBody
     When method Post
     Then status 201

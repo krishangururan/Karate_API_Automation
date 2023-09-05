@@ -12,10 +12,17 @@
         <java.version>20</java.version>
         <maven.compiler.version>3.11.0</maven.compiler.version>
         <maven.surefire.version>3.1.2</maven.surefire.version>        
-        <karate.version>1.4.0</karate.version>
+        <karate.version>1.4.1.RC3</karate.version>
     </properties>    
 
-    <dependencies>         
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+
         <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-junit5</artifactId>
@@ -27,7 +34,8 @@
     <artifactId>cucumber-reporting</artifactId>
     <version>5.7.6</version>
     <scope>test</scope>
-</dependency>		
+
+</dependency>
     
       <dependency>
         <groupId>commons-io</groupId>
