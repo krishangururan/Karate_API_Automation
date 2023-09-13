@@ -8,7 +8,7 @@ function fn() {
 
 
   var config = {
-    apiUrl : 'https://conduit.productionready.io/api/'
+    apiUrl:'https://conduit.productionready.io/api/'
   }
 
 
